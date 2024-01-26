@@ -148,10 +148,6 @@ For an overview of this package, see \code{vignette("kedd")}.
 \section{Requirements}{
 \R version >= 2.15.0
 }
-Maintainer: Iago Giné-Vázquez <iago.gin-vaz@protonmail.com>
-\author{
-	Arsalane Chouaib Guidoum
-}
 \section{Licence}{
 This package and its documentation are usable under the terms of the "GNU
 General Public License", a copy of which is distributed with the package.
