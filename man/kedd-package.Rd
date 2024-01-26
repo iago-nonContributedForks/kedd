@@ -1,5 +1,4 @@
-\newcommand{\CRANpkg}{\href{http://CRAN.R-project.org/package=#1}{\pkg{#1}}}
-\newcommand{\HR}{\href{http://www.usthb.dz/en/}}
+\newcommand{\HR}{\href{https://www.usthb.dz}}
 
 \name{kedd-package}
 \alias{kedd-package}
@@ -48,13 +47,13 @@ License: \tab GPL (>= 2) \cr
   for \eqn{r = 0, 1, 2, \dots}\cr
   
 \bold{Estimators of r'th derivative of a density function:}\cr\cr
-  \dfn{A natural estimator of the r'th derivative of a density function \eqn{f(x)} is:   
+  A \dfn{natural estimator} of the r'th derivative of a density function \eqn{f(x)} is:   
   \deqn{\hat{f}^{(r)}_{h}(x)= \frac{d^{r}}{d x^{r}} \frac{1}{nh} \sum_{i=1}^{n} K\left(\frac{x-X_{i}}{h}\right) =
                           \frac{1}{nh^{r+1}}\sum_{i=1}^{n} K^{(r)}\left(\frac{x-X_{i}}{h}\right)}{hat(f)(x;r) = n^-1 h^-(r+1) Sum ( K(x-X(i)/h ;r) ,i = 1...n)}
   Here, \eqn{X_{1}, X_{2}, \dots,X_{n}}{X(1), X(2),...,X(n)} is an i.i.d, sample of size \eqn{n} from the distribution with density 
   \eqn{f(x)}, \eqn{K(x)} is the kernel function which we take to be a symmetric probability density with 
   at least \eqn{r} non zero derivatives when estimating \eqn{f^{(r)}(x)}{f(x;r)}, and \eqn{h} is the bandwidth,
-  this parameter is very important that controls the degree of smoothing applied to the data.}\cr
+  this parameter is very important that controls the degree of smoothing applied to the data.\cr
   
   The case \eqn{(r=0)} is the standard kernel density estimator (e.g. Silverman 1986, Wolfgang 1991, Scott 1992, 
   Wand and Jones 1995, Jeffrey 1996, Bowman and Azzalini 1997, Alexandre 2009), properties of such derivative 
