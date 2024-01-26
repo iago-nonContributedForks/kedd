@@ -15,8 +15,8 @@ r'th derivative of a probability density for one-dimensional data.
 \tabular{ll}{
 Package: \tab kedd\cr
 Type: \tab Package\cr
-Version: \tab 1.0.3\cr
-Date: \tab 2015-10-30\cr
+Version: \tab 1.0.4\cr
+Date: \tab 2024-01-26\cr
 License: \tab GPL (>= 2) \cr
 }
   There are four main types of functions in this package:
@@ -148,9 +148,9 @@ For an overview of this package, see \code{vignette("kedd")}.
 \section{Requirements}{
 \R version >= 2.15.0
 }
+Maintainer: Iago Giné-Vázquez <iago.gin-vaz@protonmail.com>
 \author{
-Arsalane Chouaib Guidoum \email{acguidoum@usthb.dz} (Dept. Probability and Statistics, \HR{USTHB}, Algeria).\cr 
-Please send comments, error reports, etc. to the author via the addresses email mentioned above.
+	Arsalane Chouaib Guidoum
 }
 \section{Licence}{
 This package and its documentation are usable under the terms of the "GNU
