@@ -16,7 +16,7 @@ r'th derivative of a probability density for one-dimensional data.
 Package: \tab kedd\cr
 Type: \tab Package\cr
 Version: \tab 1.0.4\cr
-Date: \tab 2024-01-26\cr
+Date: \tab 2024-01-27\cr
 License: \tab GPL (>= 2) \cr
 }
   There are four main types of functions in this package:

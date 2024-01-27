@@ -9,7 +9,7 @@ Authors@R: c(
                                  email = "iago.gin-vaz@protonmail.com", 
                                  comment = c(ORCID = "0000-0002-6725-2638")),
   person("Arsalane Chouaib", "Guidoum", role = "aut"))
-Date: 2024-01-26
+Date: 2024-01-27
 Depends: R (>= 2.15.0)
 Suggests: nor1mix, ks, sm, locfit, orthopolynom
 URL: https://gitlab.com/iagogv/kedd
