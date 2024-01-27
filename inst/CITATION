@@ -7,7 +7,7 @@ citHeader("To cite package 'kedd' in publications use:")
  
  bibentry(bibtype="Manual",
 		  title = "kedd: Kernel estimator and bandwidth selection for density and its derivatives.",
-		  author = c(person("Arsalane", "Guidoum", middle = "Chouaib", role = "aut"), person("Iago", "Giné-Vázquez", role = "cre")),
+		  author = c(person(given = c("Arsalane", "Chouaib"), family = "Guidoum", role = "aut"), person(given = "Iago", family = "Giné-Vázquez", role = "cre")),
 		  year = year,
 		  note = vers,
 		  url  = paste("https://CRAN.R-project.org/package=kedd"))
