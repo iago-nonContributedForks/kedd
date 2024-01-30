@@ -159,12 +159,14 @@ dkde(x,deriv.order=0)  ## KDE of f
 dkde(x,deriv.order=1)  ## KDDE of d/dx f
 dkde(x,deriv.order=2)  ## KDDE of d^2/x^2 f
 dkde(x,deriv.order=3)  ## KDDE of d^3/x^3 f
+oldpar <- par(no.readonly = TRUE)
 dev.new()
 par(mfrow=c(2,2))
 plot(dkde(x,deriv.order=0))
 plot(dkde(x,deriv.order=1))
 plot(dkde(x,deriv.order=2))
 plot(dkde(x,deriv.order=3))
+par(oldpar)
 
 ## EXAMPLE 2: Bimodal Gaussian density derivative
 ## show the kernels in the dkde parametrization

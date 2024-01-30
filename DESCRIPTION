@@ -1,7 +1,7 @@
 Package: kedd
 Version: 1.0.4
 License: GPL (>= 2)
-Description: Smoothing techniques and computing bandwidth selectors of the nth derivative of a probability density for one-dimensional data (described in <arXiv:2012.06102> [stat.CO] 11 Dec 2020, by Arsalane Chouaib Guidoum).
+Description: Smoothing techniques and computing bandwidth selectors of the nth derivative of a probability density for one-dimensional data (described in Arsalane Chouaib Guidoum (2020) <arXiv:2012.06102> [stat.CO]).
 Title: Kernel Estimator and Bandwidth Selection for Density and Its
         Derivatives
 Authors@R: c(
